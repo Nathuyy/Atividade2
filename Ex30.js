@@ -18,13 +18,12 @@ for (let i = 0; i < tamanho; i++) {
     let somaColuna = 0;
     for (let j = 0; j < tamanho; j++) {
         somaLinha += matriz[i][j];
-        somaColuna += matriz[j][i]; // Invertendo os índices para calcular as colunas
+        somaColuna += matriz[j][i]; // inverteu os índices para calcular as colunas
     }
     SL.push(somaLinha);
     SC.push(somaColuna);
 }
 
-// Exibir a matriz e os vetores criados
 console.log("Matriz M:");
 for (let i = 0; i < tamanho; i++) {
     console.log(matriz[i].join("\t"));
