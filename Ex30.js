@@ -29,5 +29,5 @@ for (let i = 0; i < tamanho; i++) {
     console.log(matriz[i].join("\t"));
 }
 
-console.log("Vetor SL (somas das linhas):", SL.join(", "));
-console.log("Vetor SC (somas das colunas):", SC.join(", "));
+console.log("Vetor SL: ", SL.join(", "));
+console.log("Vetor SC: ", SC.join(", "));
